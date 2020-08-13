@@ -1,4 +1,0 @@
-Income
-income = read.csv("finaltable.csv")
-lm(Median.Household.Income.2018 ~ Unemployment.Rate.2018 + Population.2018 + Percent.of.adults.with.a.bachelor..s.degree.or.higher..2014.18 + PCTPOVALL_2018 + fips_size + POP_SQMI + AVE_HH_SZ, data = income)
-summary(lm(Median.Household.Income.2018 ~ Unemployment.Rate.2018 + Population.2018 + Percent.of.adults.with.a.bachelor..s.degree.or.higher..2014.18 + PCTPOVALL_2018 + fips_size + POP_SQMI + AVE_HH_SZ, data = income))Call:lm(formula = Median.Household.Income.2018 ~ Unemployment.Rate.2018 +     Population.2018 + Percent.of.adults.with.a.bachelor..s.degree.or.higher..2014.18 +     PCTPOVALL_2018 + fips_size + POP_SQMI + AVE_HH_SZ, data = income)Residuals:   Min     1Q Median     3Q    Max -26841  -3263   -499   2447  37349 
