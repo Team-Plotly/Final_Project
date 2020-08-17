@@ -72,37 +72,37 @@ Here we can see an inverse relationship. As unemployment rate increases Income d
 
 2. Income vs. Population 2018
 
-![](Image/Incomevspop.png)
+![](Images/Incomevspop.png)
 
 Here we do not see any relationship between the two.
 
 3. Income vs. Education
 
-![](Image/Incomevsedu.png)
+![](Images/Incomevsedu.png)
 
 Here we see that as % of population with a degree increases so does the Median Income.
 
 4. Income vs. Poverty Percent 2018
 
-![](Image/Incomevspov.png)
+![](Images/Incomevspov.png)
 
 Here we see an inverse relationship. As Poverty% decreses, the Income increases.
 
 5. Income vs. Population per square mile (Population density)
 
-![](Image/Incomevspopsqmil.png)
+![](Images/Incomevspopsqmil.png)
 
 Here there is no relationship between the two.
 
 6. Income vs. Average HH Size 2018
 
-![](Image/IncomevsHHSize.png)
+![](Images/IncomevsHHSize.png)
 
 Here we see a linear relationship. As HH size increases so does Income.
 
 Looking at the correlation Matrix below we determined there was no case of multicollinearity:
 
-![](Image/Correlation.png)
+![](Images/Correlation.png)
 
 We selected multiple linear regression as the model to predict income as we can see that most independant variables have a liner relationship with the dependant variable which is a continuous varibale.
 
@@ -112,7 +112,7 @@ We then decided to exclude Population and Population per square mile parameters 
 
 After excluding the 2 factors we ran a correlation matrix again:
 
-![](Image/Matrix.png)
+![](Images/Matrix.png)
 
 We than split the dataset into train and test sets and ran the linear regression model.
 
