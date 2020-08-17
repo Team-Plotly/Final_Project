@@ -44,11 +44,11 @@ To see full code [click here](Final_Code.ipynb)
 
 - Initial Analysis
 
-[!](Images/Income_distribution.png)
+![](Images/Income_distribution.png)
 
 Here we can see the distribution of income in each state in USA. The county-wise summary statistics show that the average income is 52812.
 
-[!](Images/Summary.png)
+![](Images/Summary.png)
 
 The factors(independant variables) considered for predicting the county level household income (dependant variable) are:
 1. Unemployemnt rate 2018
@@ -66,43 +66,43 @@ We also checked the data types for each column to ensure all were numerical and 
 To determine relationship between the Household Income and the independant variabled we used scatterplots.
 1. Income vs. Unemployment Rate 2018
 
-[!](Image/Incomevsemp.png)
+![](Image/Incomevsemp.png)
 
 Here we can see an inverse relationship. As unemployment rate increases Income decreases.
 
 2. Income vs. Population 2018
 
-[!](Image/Incomevspop.png)
+![](Image/Incomevspop.png)
 
 Here we do not see any relationship between the two.
 
 3. Income vs. Education
 
-[!](Image/Incomevsedu.png)
+![](Image/Incomevsedu.png)
 
 Here we see that as % of population with a degree increases so does the Median Income.
 
 4. Income vs. Poverty Percent 2018
 
-[!](Image/Incomevspov.png)
+![](Image/Incomevspov.png)
 
 Here we see an inverse relationship. As Poverty% decreses, the Income increases.
 
 5. Income vs. Population per square mile (Population density)
 
-[1](Image/Incomevspopsqmil.png)
+![](Image/Incomevspopsqmil.png)
 
 Here there is no relationship between the two.
 
 6. Income vs. Average HH Size 2018
 
-[!](Image/IncomevsHHSize.png)
+![](Image/IncomevsHHSize.png)
 
 Here we see a linear relationship. As HH size increases so does Income.
 
 Looking at the correlation Matrix below we determined there was no case of multicollinearity:
 
-[!](Image/Correlation.png)
+![](Image/Correlation.png)
 
 We selected multiple linear regression as the model to predict income as we can see that most independant variables have a liner relationship with the dependant variable which is a continuous varibale.
 
@@ -112,7 +112,7 @@ We then decided to exclude Population and Population per square mile parameters 
 
 After excluding the 2 factors we ran a correlation matrix again:
 
-[!](Image/Matrix.png)
+![](Image/Matrix.png)
 
 We than split the dataset into train and test sets and ran the linear regression model.
 
