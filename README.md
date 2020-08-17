@@ -66,7 +66,7 @@ We also checked the data types for each column to ensure all were numerical and 
 To determine relationship between the Household Income and the independant variabled we used scatterplots.
 1. Income vs. Unemployment Rate 2018
 
-![](Image/Incomevsemp.png)
+![](Images/Incomevsemp.png)
 
 Here we can see an inverse relationship. As unemployment rate increases Income decreases.
 
