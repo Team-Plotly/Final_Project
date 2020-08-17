@@ -116,7 +116,7 @@ After excluding the 2 factors we ran a correlation matrix again:
 
 We than split the dataset into train and test sets and ran the linear regression model.
 
-### The final prdiction model was:
+### The final prediction model is:
 
 Income = 10200 + (223)Unemployment + (677)Education - (1303)Poverty + (18885)HHSize
 
